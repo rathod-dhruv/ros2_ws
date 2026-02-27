@@ -1,0 +1,32 @@
+[1.314s] Invoking command in '/media/sf_GhostRider/ros2_ws/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sf_GhostRider/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sf_GhostRider/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /media/sf_GhostRider/ros2_ws/build/my_py_pkg/build install --record /media/sf_GhostRider/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[1.517s] running egg_info
+[1.518s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[1.539s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.551s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.558s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.560s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.561s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.608s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.613s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.614s] running build
+[1.615s] running build_py
+[1.616s] creating /media/sf_GhostRider/ros2_ws/build/my_py_pkg/build
+[1.617s] creating /media/sf_GhostRider/ros2_ws/build/my_py_pkg/build/lib
+[1.617s] creating /media/sf_GhostRider/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.618s] copying my_py_pkg/__init__.py -> /media/sf_GhostRider/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.621s] running install
+[1.628s] running install_lib
+[1.654s] creating /media/sf_GhostRider/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.655s] copying /media/sf_GhostRider/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /media/sf_GhostRider/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.660s] byte-compiling /media/sf_GhostRider/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[1.664s] running install_data
+[1.665s] creating /media/sf_GhostRider/ros2_ws/install/my_py_pkg/share/ament_index
+[1.666s] creating /media/sf_GhostRider/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[1.667s] creating /media/sf_GhostRider/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.668s] copying resource/my_py_pkg -> /media/sf_GhostRider/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.672s] copying package.xml -> /media/sf_GhostRider/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.675s] running install_egg_info
+[1.691s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /media/sf_GhostRider/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[1.711s] running install_scripts
+[1.823s] writing list of installed files to '/media/sf_GhostRider/ros2_ws/build/my_py_pkg/install.log'
+[1.882s] Invoked command in '/media/sf_GhostRider/ros2_ws/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/media/sf_GhostRider/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sf_GhostRider/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /media/sf_GhostRider/ros2_ws/build/my_py_pkg/build install --record /media/sf_GhostRider/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
