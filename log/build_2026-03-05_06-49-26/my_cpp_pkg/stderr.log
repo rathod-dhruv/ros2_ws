@@ -1,0 +1,16 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/media/sf_GhostRider/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:1[m[K:
+[01m[K/media/sf_GhostRider/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/media/sf_GhostRider/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:21:90:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter[m[K’ was not declared in this scope; did you mean ‘[01m[Kcounter_[m[K’?
+   21 | et_logger(), "Timer callback triggered %d after 3 seconds!" , [01;31m[Kcounter[m[K);
+      |                                                               [01;31m[K^~~~~~~[m[K
+
+[01m[K/media/sf_GhostRider/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter[m[K’ was not declared in this scope; did you mean ‘[01m[Kcounter_[m[K’?
+   22 |         [01;31m[Kcounter[m[K++;
+      |         [01;31m[K^~~~~~~[m[K
+      |         [32m[Kcounter_[m[K
+gmake[2]: *** [CMakeFiles/cpp_node_test.dir/build.make:76: CMakeFiles/cpp_node_test.dir/src/my_first_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
