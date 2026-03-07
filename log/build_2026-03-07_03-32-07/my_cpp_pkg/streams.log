@@ -1,0 +1,62 @@
+[0.080s] Invoking command in '/media/sf_GhostRider/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /media/sf_GhostRider/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg
+[0.231s] -- The C compiler identification is GNU 13.3.0
+[0.383s] -- The CXX compiler identification is GNU 13.3.0
+[0.428s] -- Detecting C compiler ABI info
+[0.684s] -- Detecting C compiler ABI info - done
+[0.719s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.722s] -- Detecting C compile features
+[0.725s] -- Detecting C compile features - done
+[0.754s] -- Detecting CXX compiler ABI info
+[1.018s] -- Detecting CXX compiler ABI info - done
+[1.059s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.060s] -- Detecting CXX compile features
+[1.070s] -- Detecting CXX compile features - done
+[1.098s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.245s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.520s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.672s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.714s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.765s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.818s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.986s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.001s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.144s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.165s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.191s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.445s] -- Configuring done (2.4s)
+[2.553s] -- Generating done (0.1s)
+[2.652s] -- Build files have been written to: /media/sf_GhostRider/ros2_ws/build/my_cpp_pkg
+[2.667s] Invoked command in '/media/sf_GhostRider/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /media/sf_GhostRider/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg
+[2.674s] Invoking command in '/media/sf_GhostRider/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/sf_GhostRider/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[2.686s] gmake: Warning: File 'Makefile' has modification time 0.21 s in the future
+[2.718s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 0.23 s in the future
+[2.730s] gmake[2]: Warning: File 'CMakeFiles/cpp_node_test.dir/flags.make' has modification time 0.16 s in the future
+[2.742s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.749s] gmake[2]: Warning: File 'CMakeFiles/cpp_node_test.dir/flags.make' has modification time 0.14 s in the future
+[2.764s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/my_first_node.cpp.o[0m
+[5.174s] [100%] [32m[1mLinking CXX executable cpp_node_test[0m
+[5.494s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[5.508s] [100%] Built target cpp_node_test
+[5.509s] gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[5.520s] gmake: warning:  Clock skew detected.  Your build may be incomplete.
+[5.521s] Invoked command in '/media/sf_GhostRider/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/sf_GhostRider/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[5.546s] Invoking command in '/media/sf_GhostRider/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/sf_GhostRider/ros2_ws/build/my_cpp_pkg
+[5.557s] -- Install configuration: ""
+[5.563s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node_test
+[5.628s] -- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node_test" to ""
+[5.650s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[5.657s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[5.663s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[5.675s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[5.684s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[5.691s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[5.702s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[5.710s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[5.719s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[5.729s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[5.736s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[5.744s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[5.751s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[5.757s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[5.763s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[5.773s] Invoked command in '/media/sf_GhostRider/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/sf_GhostRider/ros2_ws/build/my_cpp_pkg
