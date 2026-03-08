@@ -3,8 +3,6 @@ import rclpy
 from rclpy.node import Node
 from example_interfaces.srv import AddTwoInts
 
-
-
 class AddTwoIntsServerNode(Node): # MODIFY NAME
     def __init__(self):
         super().__init__("add_two_ints_server") # MODIFY NAME
@@ -15,8 +13,6 @@ class AddTwoIntsServerNode(Node): # MODIFY NAME
         response.sum = request.a + request.b
         self.get_logger().info(f"Received request: a={request.a}, b={request.b}, sum={response.sum}")
         return response
-
-
 
 
 def main(args=None):
