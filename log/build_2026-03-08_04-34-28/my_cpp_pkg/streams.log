@@ -1,0 +1,35 @@
+[0.033s] Invoking command in '/media/sf_GhostRider/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/sf_GhostRider/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[0.080s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.265s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.296s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.306s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.338s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.355s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.406s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.414s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.477s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.525s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.663s] -- Configuring done (0.6s)
+[0.983s] -- Generating done (0.3s)
+[1.141s] -- Build files have been written to: /media/sf_GhostRider/ros2_ws/build/my_cpp_pkg
+[1.362s] [ 12%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[1.377s] [ 12%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o[0m
+[4.227s] [ 31%] Built target cpp_node_test
+[4.271s] [ 37%] Built target smartphone
+[4.326s] [ 50%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[4.355s] [ 56%] Built target robot_news_station
+[4.374s] [ 81%] Built target add_two_ints_server
+[4.385s] [ 81%] Built target number_publisher
+[4.638s] [01m[K/media/sf_GhostRider/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/SetBool.hpp: No such file or directory
+[4.640s]     3 | #include [01;31m[K"example_interfaces/srv/SetBool.hpp"[m[K
+[4.641s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.646s] compilation terminated.
+[4.647s] gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+[4.648s] gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/number_counter.dir/all] Error 2
+[4.648s] gmake[1]: *** Waiting for unfinished jobs....
+[5.064s] [ 87%] [32m[1mLinking CXX executable add_two_ints_client_no_oop[0m
+[5.071s] [ 93%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[5.504s] [ 93%] Built target add_two_ints_client_no_oop
+[5.520s] [ 93%] Built target add_two_ints_client
+[5.521s] gmake: *** [Makefile:146: all] Error 2
+[5.523s] Invoked command in '/media/sf_GhostRider/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/sf_GhostRider/ros2_ws/build/my_cpp_pkg -- -j20 -l20
