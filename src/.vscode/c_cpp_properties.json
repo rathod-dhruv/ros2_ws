@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "ROS2 C++",
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false,
+            },
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/jazzy/include/**",
+                "${workspaceFolder}/install/my_cpp_pkg/include/**",
+                "usr/include/**",
+                "/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "intelliSenseMode": "gcc-x64",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14",
+        }
+    ],
+    "version": 4
+}

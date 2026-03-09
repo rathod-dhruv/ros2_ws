@@ -1,0 +1,51 @@
+[0.044s] Invoking command in '/media/sf_GhostRider/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/sf_GhostRider/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[0.120s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.328s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.358s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.369s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.386s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.467s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.469s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.550s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.610s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.672s] -- Found my_robot_interfaces: 0.0.0 (/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.834s] -- Configuring done (0.7s)
+[1.248s] -- Generating done (0.4s)
+[1.471s] -- Build files have been written to: /media/sf_GhostRider/ros2_ws/build/my_cpp_pkg
+[2.010s] [  5%] [32mBuilding CXX object CMakeFiles/hardware_status_publisher.dir/src/hardware_status_publisher.cpp.o[0m
+[25.837s] [ 16%] Built target cpp_node_test
+[26.518s] [ 38%] Built target smartphone
+[26.664s] [ 38%] Built target add_two_ints_client_no_oop
+[27.030s] [ 50%] Built target number_counter
+[27.747s] [ 72%] Built target number_publisher
+[28.102s] [ 72%] Built target robot_news_station
+[29.489s] [ 83%] Built target add_two_ints_server
+[29.643s] [ 94%] Built target add_two_ints_client
+[32.393s] [100%] [32m[1mLinking CXX executable hardware_status_publisher[0m
+[33.482s] [100%] Built target hardware_status_publisher
+[33.523s] Invoked command in '/media/sf_GhostRider/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/sf_GhostRider/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[33.553s] Invoking command in '/media/sf_GhostRider/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/sf_GhostRider/ros2_ws/build/my_cpp_pkg
+[33.569s] -- Install configuration: ""
+[33.581s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node_test
+[33.620s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[33.643s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[33.666s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[33.700s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[33.727s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[33.742s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[33.743s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[33.744s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[33.745s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[33.745s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[33.746s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[33.747s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[33.748s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[33.749s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[33.749s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[33.750s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[33.756s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[33.758s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[33.759s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[33.760s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[33.764s] Invoked command in '/media/sf_GhostRider/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/sf_GhostRider/ros2_ws/build/my_cpp_pkg
