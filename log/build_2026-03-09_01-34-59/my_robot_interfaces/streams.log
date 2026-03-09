@@ -1,0 +1,232 @@
+[0.035s] Invoking command in '/media/sf_GhostRider/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/sf_GhostRider/ros2_ws/build/my_robot_interfaces -- -j20 -l20
+[0.164s] [  1%] Built target my_robot_interfaces__rosidl_generator_type_description
+[0.309s] [  3%] Built target my_robot_interfaces__cpp
+[0.483s] [ 25%] Built target my_robot_interfaces__rosidl_generator_c
+[0.579s] [ 25%] Built target ament_cmake_python_copy_my_robot_interfaces
+[1.439s] [ 43%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[1.440s] [ 43%] Built target my_robot_interfaces__rosidl_typesupport_c
+[1.492s] [ 76%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[1.503s] [ 81%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.526s] [ 81%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[1.538s] [ 81%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[1.611s] [ 81%] Built target my_robot_interfaces
+[1.626s] running egg_info
+[1.640s] writing my_robot_interfaces.egg-info/PKG-INFO
+[1.642s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[1.644s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[1.673s] [ 82%] Built target my_robot_interfaces__py
+[1.696s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[1.699s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[1.737s] [ 82%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[1.758s] [ 90%] Built target my_robot_interfaces__rosidl_generator_py
+[1.913s] [ 93%] Built target my_robot_interfaces_s__rosidl_typesupport_fastrtps_c
+[1.917s] [ 98%] Built target my_robot_interfaces_s__rosidl_typesupport_c
+[1.918s] [100%] Built target my_robot_interfaces_s__rosidl_typesupport_introspection_c
+[2.153s] Invoked command in '/media/sf_GhostRider/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/sf_GhostRider/ros2_ws/build/my_robot_interfaces -- -j20 -l20
+[2.174s] Invoking command in '/media/sf_GhostRider/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/sf_GhostRider/ros2_ws/build/my_robot_interfaces
+[2.195s] -- Install configuration: ""
+[2.197s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[2.199s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.json
+[2.201s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.json
+[2.202s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStateArray.json
+[2.203s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.json
+[2.204s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[2.206s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[2.208s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[2.210s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__description.c
+[2.215s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.c
+[2.216s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.h
+[2.217s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.h
+[2.218s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+[2.223s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.h
+[2.224s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__description.c
+[2.225s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__functions.c
+[2.226s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__functions.h
+[2.227s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__struct.h
+[2.228s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__type_support.c
+[2.236s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__type_support.h
+[2.237s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.h
+[2.238s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/led_state_array.h
+[2.239s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.239s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[2.241s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle_area.h
+[2.242s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[2.243s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__description.c
+[2.244s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c
+[2.245s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h
+[2.246s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h
+[2.247s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c
+[2.252s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h
+[2.253s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__description.c
+[2.254s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__functions.c
+[2.254s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__functions.h
+[2.255s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__struct.h
+[2.256s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.c
+[2.261s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.h
+[2.263s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/set_led.h
+[2.263s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[2.264s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[2.273s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[2.282s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[2.284s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[2.285s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[2.289s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[2.290s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_fastrtps_c.h
+[2.291s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.292s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[2.294s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[2.295s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h
+[2.296s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h
+[2.309s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.321s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[2.322s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[2.324s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[2.325s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[2.326s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+[2.331s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_introspection_c.h
+[2.332s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__type_support.c
+[2.338s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.338s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[2.339s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[2.341s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h
+[2.342s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c
+[2.348s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_c.h
+[2.348s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.c
+[2.360s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[2.374s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[2.381s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[2.382s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[2.383s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[2.385s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__builder.hpp
+[2.386s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.hpp
+[2.390s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__traits.hpp
+[2.392s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp
+[2.392s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__builder.hpp
+[2.393s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__struct.hpp
+[2.393s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__traits.hpp
+[2.394s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__type_support.hpp
+[2.395s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.hpp
+[2.395s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/led_state_array.hpp
+[2.396s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.397s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[2.398s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle_area.hpp
+[2.399s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[2.401s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp
+[2.403s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp
+[2.404s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp
+[2.405s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.hpp
+[2.405s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__builder.hpp
+[2.406s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__struct.hpp
+[2.407s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__traits.hpp
+[2.408s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.hpp
+[2.409s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/set_led.hpp
+[2.410s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[2.411s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[2.412s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[2.414s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps
+[2.415s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.416s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_fastrtps_cpp.hpp
+[2.416s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.417s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[2.418s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[2.420s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp
+[2.420s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/dds_fastrtps
+[2.422s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp
+[2.433s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.444s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[2.445s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[2.447s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[2.448s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[2.449s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp
+[2.450s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_introspection_cpp.hpp
+[2.451s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_state_array__type_support.cpp
+[2.451s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[2.453s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[2.454s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp
+[2.455s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp
+[2.456s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp
+[2.457s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.cpp
+[2.467s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.490s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[2.504s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[2.506s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[2.507s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info
+[2.508s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.514s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[2.519s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.524s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[2.529s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces
+[2.531s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg
+[2.532s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status.py
+[2.532s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status_s.c
+[2.533s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_led_state_array.py
+[2.534s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_led_state_array_s.c
+[2.535s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/__init__.py
+[2.536s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so
+[2.537s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[2.538s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[2.539s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv
+[2.540s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_compute_rectangle_area.py
+[2.540s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_compute_rectangle_area_s.c
+[2.541s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_set_led.py
+[2.542s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_set_led_s.c
+[2.543s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/__init__.py
+[2.544s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[2.545s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.546s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.547s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py
+[2.582s] Listing '/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces'...
+[2.582s] Listing '/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg'...
+[2.582s] Listing '/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv'...
+[2.597s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[2.613s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[2.626s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so
+[2.641s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[2.650s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl
+[2.652s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.idl
+[2.652s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStateArray.idl
+[2.653s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.idl
+[2.654s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg
+[2.655s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.srv
+[2.655s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStateArray.msg
+[2.656s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.srv
+[2.658s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[2.659s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[2.660s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[2.661s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[2.661s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[2.662s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[2.663s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[2.664s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[2.665s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[2.666s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[2.667s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[2.672s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[2.674s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[2.675s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.676s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.677s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.679s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.679s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.684s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[2.685s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.688s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[2.691s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.692s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.694s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.696s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.698s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[2.700s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.702s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[2.703s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.703s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.705s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.706s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.707s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.708s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.709s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.710s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.711s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[2.711s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[2.712s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[2.718s] Invoked command in '/media/sf_GhostRider/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/sf_GhostRider/ros2_ws/build/my_robot_interfaces
