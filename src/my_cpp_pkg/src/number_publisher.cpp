@@ -9,11 +9,17 @@ class NumberPublisher : public rclcpp::Node
     public:
         NumberPublisher() : Node("number_publisher")
         {
-            RCLCPP_INFO(this->get_logger(), "Welcome to Number Publisher!");
-            publisher_ = this->create_publisher<example_interfaces::msg::Int64>("number", 10); 
+            this->declare_parameter("number", 2);
+            this->declare_parameter("timer_period", 1.0);
+
+            _counter = this->get_parameter("number").as_int();
+
+            publisher_ = this->create_publisher<example_interfaces::msg::Int64>("number", _counter); 
             timer_ = this->create_wall_timer(
-                1s, std::bind(&NumberPublisher::publishNumber, this)
+                this->get_parameter("timer_period").as_double() * 1s, std::bind(&NumberPublisher::publishNumber, this)
             );
+            RCLCPP_INFO(this->get_logger(), "Welcome to Number Publisher!");
+
         }
     
     private:
