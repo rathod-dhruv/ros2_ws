@@ -10,7 +10,8 @@ from my_robot_interfaces.srv import SetLed
 class LEDPanelNode(Node):
     def __init__(self):
         super().__init__("led_panel_client")
-        self.led_states_ = [0,0,0]
+        self.declare_parameter("led_states", [0, 0, 0])
+        self.led_states_ = self.get_parameter("led_states").value
         self.led_state_publisher = self.create_publisher(LedStateArray, "led_states", 10)
         self.led_states_timer = self.create_timer(4.0, self.publish_led_states)
         self.set_led_service = self.create_service(SetLed, "set_led", self.callback_set_led)

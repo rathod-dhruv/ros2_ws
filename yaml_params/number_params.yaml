@@ -7,3 +7,11 @@
   ros__parameters:
     number: 7
     timer_period: 1.2
+
+/led_panel_client:
+  ros__parameters:
+    led_states: [1, 0, 1, 1]
+
+/robot_news:
+  ros__parameters:
+    robot_name: "APNA"
