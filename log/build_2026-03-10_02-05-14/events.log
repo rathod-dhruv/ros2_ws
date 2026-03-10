@@ -1,0 +1,19 @@
+[0.000000] (-) TimerEvent: {}
+[0.000596] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000886] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.001036] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict({'my_robot_interfaces': '/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces'})}
+[0.001161] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.100480] (-) TimerEvent: {}
+[0.205815] (-) TimerEvent: {}
+[0.316555] (-) TimerEvent: {}
+[0.420937] (-) TimerEvent: {}
+[0.553025] (-) TimerEvent: {}
+[0.654066] (-) TimerEvent: {}
+[0.754756] (-) TimerEvent: {}
+[0.876062] (-) TimerEvent: {}
+[0.976820] (-) TimerEvent: {}
+[1.091171] (-) TimerEvent: {}
+[1.200494] (-) TimerEvent: {}
+[1.263236] (my_py_pkg) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 145, in build\n    temp_symlinks = self._symlinks_in_build(args, setup_py_data)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 360, in _symlinks_in_build\n    os.symlink(src, dst)\nPermissionError: [Errno 1] Operation not permitted: \'/media/sf_GhostRider/ros2_ws/src/my_py_pkg/setup.py\' -> \'/media/sf_GhostRider/ros2_ws/build/my_py_pkg/setup.py\'\n'}
+[1.267813] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 1}
+[1.275006] (-) EventReactorShutdown: {}
