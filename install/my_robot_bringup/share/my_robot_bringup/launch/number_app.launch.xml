@@ -1,0 +1,12 @@
+<launch>
+
+    <node pkg="my_py_pkg" exec="number_publisher" name="number_publisher_1">
+        <remap from="/number" to="/my_number"/>
+        <param name="number" value="12"/>
+
+    </node>
+    <node pkg="my_cpp_pkg" exec="number_counter" name="number_counter_1">
+        <remap from="/number" to="/my_number"/>
+    </node>
+
+</launch>

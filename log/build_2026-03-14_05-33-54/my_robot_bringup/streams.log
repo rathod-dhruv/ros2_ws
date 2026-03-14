@@ -1,0 +1,45 @@
+[0.191s] Invoking command in '/media/sf_GhostRider/ros2_Ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /media/sf_GhostRider/ros2_Ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/media/sf_GhostRider/ros2_Ws/install/my_robot_bringup
+[0.401s] -- The C compiler identification is GNU 13.3.0
+[0.551s] -- The CXX compiler identification is GNU 13.3.0
+[0.606s] -- Detecting C compiler ABI info
+[0.931s] -- Detecting C compiler ABI info - done
+[0.974s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.975s] -- Detecting C compile features
+[0.976s] -- Detecting C compile features - done
+[1.008s] -- Detecting CXX compiler ABI info
+[1.316s] -- Detecting CXX compiler ABI info - done
+[1.373s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.374s] -- Detecting CXX compile features
+[1.384s] -- Detecting CXX compile features - done
+[1.428s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.643s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.348s] -- Configuring done (2.1s)
+[2.430s] -- Generating done (0.1s)
+[2.498s] -- Build files have been written to: /media/sf_GhostRider/ros2_Ws/build/my_robot_bringup
+[2.507s] Invoked command in '/media/sf_GhostRider/ros2_Ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /media/sf_GhostRider/ros2_Ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/media/sf_GhostRider/ros2_Ws/install/my_robot_bringup
+[2.509s] Invoking command in '/media/sf_GhostRider/ros2_Ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/sf_GhostRider/ros2_Ws/build/my_robot_bringup -- -j20 -l20
+[2.531s] gmake: Warning: File 'Makefile' has modification time 14 s in the future
+[2.577s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 14 s in the future
+[2.578s] gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.596s] gmake: warning:  Clock skew detected.  Your build may be incomplete.
+[2.602s] Invoked command in '/media/sf_GhostRider/ros2_Ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/sf_GhostRider/ros2_Ws/build/my_robot_bringup -- -j20 -l20
+[2.626s] Invoking command in '/media/sf_GhostRider/ros2_Ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/sf_GhostRider/ros2_Ws/build/my_robot_bringup
+[2.638s] -- Install configuration: ""
+[2.640s] -- Installing: /media/sf_GhostRider/ros2_Ws/install/my_robot_bringup/share/my_robot_bringup//launch
+[2.643s] -- Installing: /media/sf_GhostRider/ros2_Ws/install/my_robot_bringup/share/my_robot_bringup//launch/number_app.launch.xml
+[2.649s] -- Installing: /media/sf_GhostRider/ros2_Ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[2.655s] -- Installing: /media/sf_GhostRider/ros2_Ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[2.659s] -- Installing: /media/sf_GhostRider/ros2_Ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[2.663s] -- Installing: /media/sf_GhostRider/ros2_Ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[2.668s] -- Installing: /media/sf_GhostRider/ros2_Ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[2.671s] -- Installing: /media/sf_GhostRider/ros2_Ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[2.675s] -- Installing: /media/sf_GhostRider/ros2_Ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[2.680s] -- Installing: /media/sf_GhostRider/ros2_Ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[2.684s] -- Installing: /media/sf_GhostRider/ros2_Ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[2.688s] -- Installing: /media/sf_GhostRider/ros2_Ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[2.693s] -- Installing: /media/sf_GhostRider/ros2_Ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[2.710s] -- Installing: /media/sf_GhostRider/ros2_Ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[2.714s] -- Installing: /media/sf_GhostRider/ros2_Ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[2.718s] -- Installing: /media/sf_GhostRider/ros2_Ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[2.722s] -- Installing: /media/sf_GhostRider/ros2_Ws/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[2.729s] Invoked command in '/media/sf_GhostRider/ros2_Ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/sf_GhostRider/ros2_Ws/build/my_robot_bringup

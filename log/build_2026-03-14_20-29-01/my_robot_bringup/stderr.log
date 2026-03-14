@@ -1,0 +1,3 @@
+[0mCMake Error: The current CMakeCache.txt directory /media/sf_GhostRider/ros2_ws/build/my_robot_bringup/CMakeCache.txt is different than the directory /media/sf_GhostRider/ros2_Ws/build/my_robot_bringup where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 3.3 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
