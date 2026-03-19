@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from functools import partial
 import math
 
 import rclpy
@@ -8,7 +9,7 @@ from geometry_msgs.msg import Twist
 
 from turtle_catch_all_interfaces.msg import Turtle
 from turtle_catch_all_interfaces.msg import TurtleArray
-
+from turtle_catch_all_interfaces.srv import CatchTurtle
 
 class TurtleControllerNode(Node): # MODIFY NAME
     def __init__(self):
@@ -19,7 +20,11 @@ class TurtleControllerNode(Node): # MODIFY NAME
         self.pose_subscriber = self.create_subscription(Pose, "/turtle1/pose", self.callback_pose, 10)
 
         self.alive_turtles_subscriber_ = self.create_subscription(TurtleArray, "alive_turtles", self.callback_alive_turtles, 10)
+        self.catch_turtle_client = self.create_client(CatchTurtle, "catch_turtle")
+
         self.control_loop_timer = self.create_timer(0.01, self.control_loop) # 100 Hz control loop
+    
+    
     def callback_pose(self, msgPose : Pose):
         # Handle the received pose message
         self.pose_ = msgPose
@@ -40,7 +45,7 @@ class TurtleControllerNode(Node): # MODIFY NAME
         cmd = Twist()
         if distance > 0.5:
             #multiply by 2 to get a good speed, we can adjust this value as needed
-            cmd.linear.x = 2.0 * distance
+            cmd.linear.x = 1.0 * distance
 
             goal_theta = math.atan2(dist_y, dist_x)
             diff = goal_theta - self.pose_.theta
@@ -54,8 +59,28 @@ class TurtleControllerNode(Node): # MODIFY NAME
         else:
             cmd.linear.x = 0.0
             cmd.angular.z = 0.0
+            self.call_catch_turtle_service(self.turtle_to_catch_.name)
+            self.turtle_to_catch_ = None
 
         self.cmd_vel_publisher.publish(cmd)
+
+    def call_catch_turtle_service(self, turtle_name):
+        while not self.catch_turtle_client.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info("Waiting for catch_turtle service...")
+
+        request = CatchTurtle.Request()
+        request.name = turtle_name
+
+        future = self.catch_turtle_client.call_async(request)
+        future.add_done_callback(
+            partial(self.callback_call_catch_turtle_service, request = request))
+        
+    def callback_call_catch_turtle_service(self, future, request):
+        response: CatchTurtle.Response = future.result()
+        if response.success:
+            self.get_logger().info(f"Called catch_turtle service for turtle: {request.name}")
+            self.turtle_to_catch_ = None
+     
 
 def main(args=None):
     rclpy.init(args=args)

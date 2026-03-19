@@ -1,0 +1,210 @@
+[0.040s] Invoking command in '/media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces -- -j20 -l20
+[0.109s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.133s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.213s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.226s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.308s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.812s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.035s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.342s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.342s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.552s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.701s] -- Configuring done (1.6s)
+[2.087s] -- Generating done (0.4s)
+[2.243s] -- Build files have been written to: /media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces
+[2.331s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.408s] [  1%] Built target ament_cmake_python_copy_turtle_catch_all_interfaces
+[2.532s] [  1%] Built target turtle_catch_all_interfaces__rosidl_generator_type_description
+[2.597s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.626s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.718s] running egg_info
+[2.740s] writing turtle_catch_all_interfaces.egg-info/PKG-INFO
+[2.741s] writing dependency_links to turtle_catch_all_interfaces.egg-info/dependency_links.txt
+[2.744s] writing top-level names to turtle_catch_all_interfaces.egg-info/top_level.txt
+[2.805s] reading manifest file 'turtle_catch_all_interfaces.egg-info/SOURCES.txt'
+[2.808s] writing manifest file 'turtle_catch_all_interfaces.egg-info/SOURCES.txt'
+[2.847s] [  5%] Built target ament_cmake_python_build_turtle_catch_all_interfaces_egg
+[5.464s] [  5%] Built target turtle_catch_all_interfaces__cpp
+[5.900s] [  9%] [32mBuilding C object CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_catch_all_interfaces/msg/detail/turtle__functions.c.o[0m
+[5.904s] [ 12%] [32mBuilding C object CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_catch_all_interfaces/msg/detail/turtle__description.c.o[0m
+[5.973s] [ 18%] [32mBuilding C object CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_catch_all_interfaces/msg/detail/turtle__type_support.c.o[0m
+[6.014s] [ 18%] [32mBuilding C object CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_catch_all_interfaces/msg/detail/turtle_array__description.c.o[0m
+[6.037s] [ 18%] [32mBuilding C object CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_catch_all_interfaces/msg/detail/turtle_array__type_support.c.o[0m
+[6.073s] [ 20%] [32mBuilding C object CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_catch_all_interfaces/msg/detail/turtle_array__functions.c.o[0m
+[6.163s] [ 18%] [32mBuilding C object CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_catch_all_interfaces/srv/detail/catch_turtle__description.c.o[0m
+[6.202s] [ 22%] [32mBuilding C object CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_catch_all_interfaces/srv/detail/catch_turtle__functions.c.o[0m
+[6.264s] [ 22%] [32mBuilding C object CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_catch_all_interfaces/srv/detail/catch_turtle__type_support.c.o[0m
+[7.576s] [ 24%] [32m[1mLinking C shared library libturtle_catch_all_interfaces__rosidl_generator_c.so[0m
+[7.698s] [ 24%] Built target turtle_catch_all_interfaces__rosidl_generator_c
+[7.798s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.815s] [ 33%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.837s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.860s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.872s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.884s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.841s] [ 40%] [32mBuilding C object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_catch_all_interfaces/msg/detail/turtle__type_support.c.o[0m
+[11.905s] [ 40%] [32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_catch_all_interfaces/msg/turtle_array__type_support.cpp.o[0m
+[11.942s] [ 40%] [32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_catch_all_interfaces/msg/turtle__type_support.cpp.o[0m
+[11.960s] [ 46%] [32mBuilding C object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_catch_all_interfaces/srv/detail/catch_turtle__type_support.c.o[0m
+[12.053s] [ 46%] [32mBuilding C object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_catch_all_interfaces/msg/detail/turtle_array__type_support.c.o[0m
+[12.096s] [ 46%] [32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_catch_all_interfaces/srv/catch_turtle__type_support.cpp.o[0m
+[12.699s] [ 48%] [32m[1mLinking CXX shared library libturtle_catch_all_interfaces__rosidl_typesupport_c.so[0m
+[12.875s] [ 50%] [32m[1mLinking C shared library libturtle_catch_all_interfaces__rosidl_typesupport_introspection_c.so[0m
+[13.444s] [ 55%] [32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_catch_all_interfaces/msg/turtle__type_support.cpp.o[0m
+[13.451s] [ 55%] [32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_catch_all_interfaces/msg/turtle_array__type_support.cpp.o[0m
+[13.461s] [ 55%] [32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_catch_all_interfaces/srv/catch_turtle__type_support.cpp.o[0m
+[13.484s] [ 59%] [32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_catch_all_interfaces/msg/detail/turtle__type_support.cpp.o[0m
+[13.491s] [ 59%] [32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_catch_all_interfaces/msg/detail/turtle_array__type_support.cpp.o[0m
+[13.523s] [ 61%] [32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_catch_all_interfaces/srv/detail/catch_turtle__type_support.cpp.o[0m
+[13.704s] [ 61%] Built target turtle_catch_all_interfaces__rosidl_typesupport_c
+[16.797s] [ 62%] [32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_catch_all_interfaces/msg/detail/dds_fastrtps/turtle__type_support.cpp.o[0m
+[17.133s] [ 62%] Built target turtle_catch_all_interfaces__rosidl_typesupport_introspection_c
+[19.538s] [ 66%] [32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_catch_all_interfaces/msg/detail/dds_fastrtps/turtle_array__type_support.cpp.o[0m
+[19.751s] [ 66%] [32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_catch_all_interfaces/msg/detail/turtle__type_support_c.cpp.o[0m
+[20.781s] [ 70%] [32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_catch_all_interfaces/msg/detail/turtle_array__type_support_c.cpp.o[0m
+[21.023s] [ 70%] [32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_catch_all_interfaces/srv/detail/dds_fastrtps/catch_turtle__type_support.cpp.o[0m
+[21.972s] [ 72%] [32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_catch_all_interfaces/srv/detail/catch_turtle__type_support_c.cpp.o[0m
+[64.852s] [ 74%] [32m[1mLinking CXX shared library libturtle_catch_all_interfaces__rosidl_typesupport_cpp.so[0m
+[76.058s] [ 74%] Built target turtle_catch_all_interfaces__rosidl_typesupport_cpp
+[77.768s] [ 75%] [32m[1mLinking CXX shared library libturtle_catch_all_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[78.494s] [ 77%] [32m[1mLinking CXX shared library libturtle_catch_all_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[82.797s] [ 77%] Built target turtle_catch_all_interfaces__rosidl_typesupport_fastrtps_c
+[83.054s] [ 77%] Built target turtle_catch_all_interfaces__rosidl_typesupport_introspection_cpp
+[83.326s] [ 79%] [32m[1mLinking CXX shared library libturtle_catch_all_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[84.185s] [ 79%] Built target turtle_catch_all_interfaces__rosidl_typesupport_fastrtps_cpp
+[84.579s] [ 79%] Built target turtle_catch_all_interfaces
+[85.127s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[88.113s] [ 81%] Built target turtle_catch_all_interfaces__py
+[89.285s] [ 85%] [32mBuilding C object CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_catch_all_interfaces/msg/_turtle_array_s.c.o[0m
+[89.290s] [ 85%] [32mBuilding C object CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_catch_all_interfaces/msg/_turtle_s.c.o[0m
+[89.394s] [ 87%] [32mBuilding C object CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_catch_all_interfaces/srv/_catch_turtle_s.c.o[0m
+[92.014s] [ 88%] [32m[1mLinking C shared library libturtle_catch_all_interfaces__rosidl_generator_py.so[0m
+[92.680s] [ 88%] Built target turtle_catch_all_interfaces__rosidl_generator_py
+[95.467s] [ 90%] [32mBuilding C object CMakeFiles/turtle_catch_all_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/turtle_catch_all_interfaces/_turtle_catch_all_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[95.641s] [ 92%] [32mBuilding C object CMakeFiles/turtle_catch_all_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/turtle_catch_all_interfaces/_turtle_catch_all_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[97.091s] [ 94%] [32mBuilding C object CMakeFiles/turtle_catch_all_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtle_catch_all_interfaces/_turtle_catch_all_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[99.396s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/turtle_catch_all_interfaces/turtle_catch_all_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[100.198s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/turtle_catch_all_interfaces/turtle_catch_all_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[100.783s] [100%] [32m[1mLinking C shared module rosidl_generator_py/turtle_catch_all_interfaces/turtle_catch_all_interfaces_s__rosidl_typesupport_c.so[0m
+[101.782s] [100%] Built target turtle_catch_all_interfaces_s__rosidl_typesupport_fastrtps_c
+[102.254s] [100%] Built target turtle_catch_all_interfaces_s__rosidl_typesupport_introspection_c
+[102.468s] [100%] Built target turtle_catch_all_interfaces_s__rosidl_typesupport_c
+[102.908s] Invoked command in '/media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces -- -j20 -l20
+[103.261s] Invoking command in '/media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces
+[103.361s] -- Install configuration: ""
+[103.367s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtle_catch_all_interfaces
+[103.383s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/msg/Turtle.json
+[103.398s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/msg/TurtleArray.json
+[103.433s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/srv/CatchTurtle.json
+[103.449s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces
+[103.451s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg
+[103.456s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail
+[103.459s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__description.c
+[103.476s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__functions.c
+[103.491s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__functions.h
+[103.501s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__struct.h
+[103.538s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__type_support.c
+[103.591s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__type_support.h
+[103.610s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__description.c
+[103.664s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__functions.c
+[103.748s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__functions.h
+[103.814s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__struct.h
+[103.840s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__type_support.c
+[103.853s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__type_support.h
+[103.866s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/rosidl_generator_c__visibility_control.h
+[103.867s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/turtle.h
+[103.882s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/turtle_array.h
+[103.895s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv
+[103.901s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/catch_turtle.h
+[103.913s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail
+[103.919s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__description.c
+[103.955s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__functions.c
+[103.972s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__functions.h
+[103.987s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__struct.h
+[104.001s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__type_support.c
+[104.013s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__type_support.h
+[104.059s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/environment/library_path.sh
+[104.069s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/environment/library_path.dsv
+[104.091s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_generator_c.so
+[104.180s] -- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_generator_c.so" to ""
+[104.182s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces
+[104.187s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg
+[104.190s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail
+[104.195s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h
+[104.210s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h
+[104.224s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[104.226s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv
+[104.231s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail
+[104.237s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_c.h
+[104.308s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_typesupport_fastrtps_c.so
+[104.434s] -- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[104.446s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces
+[104.459s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg
+[104.473s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail
+[104.474s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h
+[104.486s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__type_support.c
+[104.502s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h
+[104.518s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__type_support.c
+[104.538s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[104.541s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv
+[104.551s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail
+[104.600s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_c.h
+[104.619s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__type_support.c
+[104.649s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_typesupport_introspection_c.so
+[104.729s] -- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[104.746s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_typesupport_c.so
+[104.831s] -- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_typesupport_c.so" to ""
+[104.831s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces
+[104.832s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg
+[104.835s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail
+[104.838s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__builder.hpp
+[104.848s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__struct.hpp
+[104.872s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__traits.hpp
+[104.899s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__type_support.hpp
+[104.913s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__builder.hpp
+[104.928s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__struct.hpp
+[104.940s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__traits.hpp
+[104.959s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__type_support.hpp
+[105.022s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[105.048s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/turtle.hpp
+[105.062s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/turtle_array.hpp
+[105.071s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv
+[105.095s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/catch_turtle.hpp
+[105.113s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail
+[105.115s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__builder.hpp
+[105.125s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__struct.hpp
+[105.144s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__traits.hpp
+[105.158s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__type_support.hpp
+[105.185s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces
+[105.190s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg
+[105.192s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail
+[105.194s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/dds_fastrtps
+[105.207s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp
+[105.215s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[105.227s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[105.233s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv
+[105.234s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail
+[105.243s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[105.244s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/dds_fastrtps
+[105.261s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[105.721s] -- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[105.724s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces
+[105.728s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg
+[105.732s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail
+[105.737s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp
+[105.753s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__type_support.cpp
+[105.769s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp
+[105.834s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__type_support.cpp
+[105.850s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv
+[105.852s] -- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail
+[105.859s] -- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_cpp.hpp
+[105.864s] [31mCMake Error at cmake_install.cmake:205 (file):
+[105.867s]   file INSTALL cannot copy file
+[105.867s]   "/media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces/rosidl_typesupport_introspection_cpp/turtle_catch_all_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_cpp.hpp"
+[105.871s]   to
+[105.871s]   "/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_cpp.hpp":
+[105.872s]   Operation not permitted.
+[105.872s] 
+[105.879s] [0m
+[105.883s] Invoked command in '/media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces

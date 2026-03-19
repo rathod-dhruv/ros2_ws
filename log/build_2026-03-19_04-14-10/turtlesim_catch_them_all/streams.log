@@ -1,0 +1,25 @@
+[0.718s] Invoking command in '/media/sf_GhostRider/ros2_ws/src/turtlesim_catch_them_all': AMENT_PREFIX_PATH=/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/sf_GhostRider/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /media/sf_GhostRider/ros2_ws/build/turtlesim_catch_them_all/build install --record /media/sf_GhostRider/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed install_data
+[0.924s] running egg_info
+[0.940s] writing ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/PKG-INFO
+[0.941s] writing dependency_links to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/dependency_links.txt
+[0.943s] writing entry points to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/entry_points.txt
+[0.944s] writing requirements to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/requires.txt
+[0.945s] writing top-level names to ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/top_level.txt
+[0.978s] reading manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.982s] writing manifest file '../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.984s] running build
+[0.985s] running build_py
+[0.986s] copying turtlesim_catch_them_all/turtle_spawner.py -> /media/sf_GhostRider/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all
+[0.989s] running install
+[0.994s] running install_lib
+[1.008s] copying /media/sf_GhostRider/ros2_ws/build/turtlesim_catch_them_all/build/lib/turtlesim_catch_them_all/turtle_spawner.py -> /media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages/turtlesim_catch_them_all
+[1.012s] byte-compiling /media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages/turtlesim_catch_them_all/turtle_spawner.py to turtle_spawner.cpython-312.pyc
+[1.015s] running install_data
+[1.016s] running install_egg_info
+[1.029s] removing '/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages/turtlesim_catch_them_all-0.0.0-py3.12.egg-info' (and everything under it)
+[1.035s] Copying ../../build/turtlesim_catch_them_all/turtlesim_catch_them_all.egg-info to /media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages/turtlesim_catch_them_all-0.0.0-py3.12.egg-info
+[1.069s] running install_scripts
+[1.174s] Installing controller script to /media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[1.177s] Installing spawner script to /media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[1.179s] writing list of installed files to '/media/sf_GhostRider/ros2_ws/build/turtlesim_catch_them_all/install.log'
+[1.199s] Invoked command in '/media/sf_GhostRider/ros2_ws/src/turtlesim_catch_them_all' returned '0': AMENT_PREFIX_PATH=/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/media/sf_GhostRider/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all build --build-base /media/sf_GhostRider/ros2_ws/build/turtlesim_catch_them_all/build install --record /media/sf_GhostRider/ros2_ws/build/turtlesim_catch_them_all/install.log --single-version-externally-managed install_data

@@ -2,14 +2,14 @@
 #!/usr/bin/env python3
 import math
 import random
-
 import rclpy
 from rclpy.node import Node
-
 from turtlesim.srv import Spawn
+from turtlesim.srv import Kill
 from functools import partial
 from turtle_catch_all_interfaces.msg import Turtle
 from turtle_catch_all_interfaces.msg import TurtleArray
+from turtle_catch_all_interfaces.srv import CatchTurtle
 
 
 class TurtleSpawnerNode(Node): # MODIFY NAME
@@ -21,7 +21,15 @@ class TurtleSpawnerNode(Node): # MODIFY NAME
         self.alive_turtles_ = []
         self.alive_turtles_publisher_ = self.create_publisher(TurtleArray, "alive_turtles", 10)
         self.spawn_service_client = self.create_client(Spawn, "/spawn")
+        self.catch_turtle_service_ = self.create_service(CatchTurtle, "catch_turtle", self.callback_catch_turtle)
+        self.kill_client_ = self.create_client(Kill, "/kill")
         self.spawn_turtle_timer_ = self.create_timer(2.0, self.spawn_new_turtle) # spawn a new turtle every 2 seconds
+
+    def callback_catch_turtle(self, request: CatchTurtle.Request, response: CatchTurtle.Response):
+        self.call_kill_service(request.name)
+        response.success = True
+        return response
+
 
     def publish_alive_turtles(self):
         msg = TurtleArray()
@@ -64,6 +72,23 @@ class TurtleSpawnerNode(Node): # MODIFY NAME
             self.publish_alive_turtles()
         else:
             self.get_logger().error("Failed to spawn turtle")
+
+    def call_kill_service(self, turtle_name):
+        while not self.kill_client_.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info("Waiting for kill service...")
+
+        request = Kill.Request()
+        request.name = turtle_name
+
+        future = self.kill_client_.call_async(request)
+        future.add_done_callback(
+            partial(self.callback_call_kill_service, request = request))
+
+    def callback_call_kill_service(self, future, request):
+        self.get_logger().info(f"Killed turtle with name: {request.name}")
+        self.alive_turtles_ = [t for t in self.alive_turtles_ if t.name != request.name]
+        self.publish_alive_turtles()
+    
 
 def main(args=None):
     rclpy.init(args=args)
