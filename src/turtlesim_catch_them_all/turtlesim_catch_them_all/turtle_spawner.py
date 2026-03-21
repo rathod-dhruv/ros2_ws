@@ -15,15 +15,20 @@ from turtle_catch_all_interfaces.srv import CatchTurtle
 class TurtleSpawnerNode(Node): # MODIFY NAME
     def __init__(self):
         super().__init__("turtle_spawner") # MODIFY NAME
-        self.turtle_name_prefix = "turtle"
-        self.turtle_count = 0
 
+        self.declare_parameter("turtle_name_prefix", "turtle")
+        self.declare_parameter("spawn_frequency", 2.0)
+
+        self.turtle_name_prefix = self.get_parameter("turtle_name_prefix").get_parameter_value().string_value
+        self.spawn_frequency = self.get_parameter("spawn_frequency").get_parameter_value().double_value
+
+        self.turtle_count = 0
         self.alive_turtles_ = []
         self.alive_turtles_publisher_ = self.create_publisher(TurtleArray, "alive_turtles", 10)
         self.spawn_service_client = self.create_client(Spawn, "/spawn")
         self.catch_turtle_service_ = self.create_service(CatchTurtle, "catch_turtle", self.callback_catch_turtle)
         self.kill_client_ = self.create_client(Kill, "/kill")
-        self.spawn_turtle_timer_ = self.create_timer(2.0, self.spawn_new_turtle) # spawn a new turtle every 2 seconds
+        self.spawn_turtle_timer_ = self.create_timer(1.0/self.spawn_frequency, self.spawn_new_turtle) # spawn a new turtle every 2 seconds
 
     def callback_catch_turtle(self, request: CatchTurtle.Request, response: CatchTurtle.Response):
         self.call_kill_service(request.name)

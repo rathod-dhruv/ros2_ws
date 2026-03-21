@@ -14,8 +14,15 @@ from turtle_catch_all_interfaces.srv import CatchTurtle
 class TurtleControllerNode(Node): # MODIFY NAME
     def __init__(self):
         super().__init__("turtle_controller") # MODIFY NAME
+
+        self.declare_parameter("catch_closest_turtle_first", True)
+
+
+        self.catch_closes_turtle_first_ = self.get_parameter("catch_closest_turtle_first").get_parameter_value().bool_value
+
         self.turtle_to_catch_ : Turtle = None
         self.pose_ : Pose = None
+        
         self.cmd_vel_publisher = self.create_publisher(Twist, "/turtle1/cmd_vel", 10)
         self.pose_subscriber = self.create_subscription(Pose, "/turtle1/pose", self.callback_pose, 10)
 
@@ -31,7 +38,19 @@ class TurtleControllerNode(Node): # MODIFY NAME
 
     def callback_alive_turtles(self, msg : TurtleArray):
         if len(msg.turtles) > 0:
-            self.turtle_to_catch_ = msg.turtles[0]
+            if self.catch_closes_turtle_first_:
+                closest_turtle = None
+                closest_distance = float('inf')
+                for turtle in msg.turtles:
+                    dist_x = turtle.x - self.pose_.x
+                    dist_y = turtle.y - self.pose_.y
+                    distance = math.sqrt(dist_x*dist_x + dist_y*dist_y)
+                    if distance < closest_distance:
+                        closest_distance = distance
+                        closest_turtle = turtle
+                self.turtle_to_catch_ = closest_turtle
+            else:
+                self.turtle_to_catch_ = msg.turtles[0]
             
 
 
@@ -80,7 +99,7 @@ class TurtleControllerNode(Node): # MODIFY NAME
         if response.success:
             self.get_logger().info(f"Called catch_turtle service for turtle: {request.name}")
             self.turtle_to_catch_ = None
-     
+    
 
 def main(args=None):
     rclpy.init(args=args)

@@ -1,2 +1,0 @@
-gmake[2]: Warning: File 'CMakeFiles/smartphone.dir/compiler_depend.make' has modification time 0.93 s in the future
-gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.

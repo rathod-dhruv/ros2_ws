@@ -1,8 +1,0 @@
-[31mCMake Error at cmake_install.cmake:205 (file):
-  file INSTALL cannot copy file
-  "/media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces/rosidl_typesupport_introspection_cpp/turtle_catch_all_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_cpp.hpp"
-  to
-  "/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_cpp.hpp":
-  Operation not permitted.
-
-[0m

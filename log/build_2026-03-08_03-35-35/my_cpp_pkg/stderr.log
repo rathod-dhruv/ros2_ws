@@ -1,7 +1,0 @@
-[01m[K/media/sf_GhostRider/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:[m[K In constructor ‘[01m[KAddTwoIntsServer::[01;32m[KAddTwoIntsServer[m[K()[m[K’:
-[01m[K/media/sf_GhostRider/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:7:55:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KAddTwoIntsServer[m[K’ does not have any field named ‘[01m[Kcounter_[m[K’
-    7 |     AddTwoIntsServer() : Node("add_two_ints_server"), [01;31m[Kcounter_[m[K(0)
-      |                                                       [01;31m[K^~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/add_two_ints_server.dir/build.make:76: CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/add_two_ints_server.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

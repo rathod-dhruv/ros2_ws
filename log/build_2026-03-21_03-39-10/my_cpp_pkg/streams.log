@@ -1,0 +1,118 @@
+[0.181s] Invoking command in '/media/sf_GhostRider/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces:/media/sf_GhostRider/ros2_ws/install/turtle_mine_bringup:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces:/media/sf_GhostRider/ros2_ws/install/my_robot_bringup:/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /media/sf_GhostRider/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg
+[0.390s] -- The C compiler identification is GNU 13.3.0
+[0.590s] -- The CXX compiler identification is GNU 13.3.0
+[0.657s] -- Detecting C compiler ABI info
+[1.092s] -- Detecting C compiler ABI info - done
+[1.125s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.126s] -- Detecting C compile features
+[1.127s] -- Detecting C compile features - done
+[1.147s] -- Detecting CXX compiler ABI info
+[1.621s] -- Detecting CXX compiler ABI info - done
+[1.696s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.699s] -- Detecting CXX compile features
+[1.700s] -- Detecting CXX compile features - done
+[1.796s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.302s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.393s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.787s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.891s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.990s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.116s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.694s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.724s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.924s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.950s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.977s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.151s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[5.241s] -- Found my_robot_interfaces: 0.0.0 (/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[5.401s] -- Configuring done (5.2s)
+[5.566s] -- Generating done (0.2s)
+[5.636s] -- Build files have been written to: /media/sf_GhostRider/ros2_ws/build/my_cpp_pkg
+[5.639s] Invoked command in '/media/sf_GhostRider/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces:/media/sf_GhostRider/ros2_ws/install/turtle_mine_bringup:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces:/media/sf_GhostRider/ros2_ws/install/my_robot_bringup:/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /media/sf_GhostRider/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg
+[5.641s] Invoking command in '/media/sf_GhostRider/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces:/media/sf_GhostRider/ros2_ws/install/turtle_mine_bringup:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces:/media/sf_GhostRider/ros2_ws/install/my_robot_bringup:/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /media/sf_GhostRider/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[5.664s] gmake: Warning: File 'Makefile' has modification time 0.34 s in the future
+[5.724s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 0.31 s in the future
+[5.804s] gmake[2]: Warning: File 'CMakeFiles/robot_news_station.dir/flags.make' has modification time 0.11 s in the future
+[5.810s] gmake[2]: Warning: File 'CMakeFiles/cpp_node_test.dir/flags.make' has modification time 0.096 s in the future
+[5.851s] gmake[2]: Warning: File 'CMakeFiles/number_counter.dir/flags.make' has modification time 0.14 s in the future
+[5.874s] gmake[2]: Warning: File 'CMakeFiles/smartphone.dir/flags.make' has modification time 0.11 s in the future
+[5.890s] gmake[2]: Warning: File 'CMakeFiles/add_two_ints_server.dir/flags.make' has modification time 0.15 s in the future
+[5.892s] gmake[2]: Warning: File 'CMakeFiles/add_two_ints_client_no_oop.dir/flags.make' has modification time 0.16 s in the future
+[5.928s] gmake[2]: Warning: File 'CMakeFiles/add_two_ints_client.dir/flags.make' has modification time 0.15 s in the future
+[5.940s] gmake[2]: Warning: File 'CMakeFiles/hardware_status_publisher.dir/flags.make' has modification time 0.15 s in the future
+[5.988s] gmake[2]: Warning: File 'CMakeFiles/number_publisher.dir/flags.make' has modification time 0.08 s in the future
+[6.099s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.219s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.268s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.270s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.274s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.282s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.287s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.299s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.306s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[6.541s] [ 22%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[6.543s] [ 22%] [32mBuilding CXX object CMakeFiles/hardware_status_publisher.dir/src/hardware_status_publisher.cpp.o[0m
+[6.561s] [ 22%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[6.587s] [ 38%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o[0m
+[6.612s] [ 44%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[6.670s] [ 22%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[6.720s] [ 50%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[6.749s] [ 50%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[6.777s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/my_first_node.cpp.o[0m
+[12.450s] [ 55%] [32m[1mLinking CXX executable cpp_node_test[0m
+[14.434s] [ 61%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[15.049s] [ 66%] [32m[1mLinking CXX executable add_two_ints_client_no_oop[0m
+[15.305s] [ 72%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[15.974s] [ 72%] Built target cpp_node_test
+[16.728s] [ 77%] [32m[1mLinking CXX executable number_publisher[0m
+[16.850s] [ 83%] [32m[1mLinking CXX executable robot_news_station[0m
+[17.027s] [ 88%] [32m[1mLinking CXX executable hardware_status_publisher[0m
+[18.666s] [ 88%] Built target add_two_ints_server
+[19.459s] [ 88%] Built target add_two_ints_client_no_oop
+[19.885s] [ 88%] Built target add_two_ints_client
+[21.809s] [ 94%] [32m[1mLinking CXX executable smartphone[0m
+[22.222s] [ 94%] Built target robot_news_station
+[22.419s] [ 94%] Built target hardware_status_publisher
+[22.419s] [ 94%] Built target number_publisher
+[22.454s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[23.910s] [100%] Built target smartphone
+[24.377s] [100%] Built target number_counter
+[24.379s] gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[24.413s] gmake: warning:  Clock skew detected.  Your build may be incomplete.
+[24.415s] Invoked command in '/media/sf_GhostRider/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces:/media/sf_GhostRider/ros2_ws/install/turtle_mine_bringup:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces:/media/sf_GhostRider/ros2_ws/install/my_robot_bringup:/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /media/sf_GhostRider/ros2_ws/build/my_cpp_pkg -- -j20 -l20
+[24.420s] Invoking command in '/media/sf_GhostRider/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces:/media/sf_GhostRider/ros2_ws/install/turtle_mine_bringup:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces:/media/sf_GhostRider/ros2_ws/install/my_robot_bringup:/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /media/sf_GhostRider/ros2_ws/build/my_cpp_pkg
+[24.438s] -- Install configuration: ""
+[24.440s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node_test
+[24.467s] -- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node_test" to ""
+[24.468s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[24.556s] -- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+[24.557s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[24.782s] -- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""
+[24.783s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher
+[24.852s] -- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher" to ""
+[24.853s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[25.114s] -- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""
+[25.116s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[25.162s] -- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server" to ""
+[25.164s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher
+[25.226s] -- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hardware_status_publisher" to ""
+[25.228s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[25.278s] -- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop" to ""
+[25.280s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[25.334s] -- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client" to ""
+[25.338s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[25.345s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[25.350s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[25.354s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[25.358s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[25.362s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[25.367s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[25.371s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[25.376s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[25.381s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[25.386s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[25.391s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[25.396s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[25.401s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[25.406s] -- Installing: /media/sf_GhostRider/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[25.413s] Invoked command in '/media/sf_GhostRider/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces:/media/sf_GhostRider/ros2_ws/install/turtle_mine_bringup:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces:/media/sf_GhostRider/ros2_ws/install/my_robot_bringup:/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /media/sf_GhostRider/ros2_ws/build/my_cpp_pkg

@@ -1,0 +1,450 @@
+[0.000000] (-) TimerEvent: {}
+[0.000778] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000841] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000938] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.001073] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.001200] (-) JobUnselected: {'identifier': 'turtle_mine_bringup'}
+[0.001369] (-) JobUnselected: {'identifier': 'turtlesim_catch_them_all'}
+[0.002536] (turtle_catch_all_interfaces) JobQueued: {'identifier': 'turtle_catch_all_interfaces', 'dependencies': OrderedDict()}
+[0.004006] (turtle_catch_all_interfaces) JobStarted: {'identifier': 'turtle_catch_all_interfaces'}
+[0.045588] (turtle_catch_all_interfaces) JobProgress: {'identifier': 'turtle_catch_all_interfaces', 'progress': 'cmake'}
+[0.049423] (turtle_catch_all_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/media/sf_GhostRider/ros2_ws/src/turtle_catch_all_interfaces', '-DCMAKE_INSTALL_PREFIX=/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces'], 'cwd': '/media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2566-0-MyLinux_TIME113592', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib:/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/media/sf_GhostRider/ros2_ws/build', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2326', 'SYSTEMD_EXEC_PID': '2566', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3751', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/media/sf_GhostRider/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '9:27714', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/MyLinux:@/tmp/.ICE-unix/2531,unix/MyLinux:/tmp/.ICE-unix/2531', 'INVOCATION_ID': 'fe333ce0d9de4771b0bab3f34f2b5e7e', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.9BP1L3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/media/sf_GhostRider/ros2_ws/install/turtle_mine_bringup:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces:/media/sf_GhostRider/ros2_ws/install/my_robot_bringup:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg:/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:0ac0960a-9d57-4ec4-bf7e-87fa69c5007d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/media/sf_GhostRider/ros2_ws/install/turtle_mine_bringup:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces:/media/sf_GhostRider/ros2_ws/install/my_robot_bringup:/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg:/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.100624] (-) TimerEvent: {}
+[0.177208] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.201369] (-) TimerEvent: {}
+[0.269056] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.299262] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.302272] (-) TimerEvent: {}
+[0.403718] (-) TimerEvent: {}
+[0.505496] (-) TimerEvent: {}
+[0.559352] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.588555] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.589967] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.590713] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.607766] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.609117] (-) TimerEvent: {}
+[0.711920] (-) TimerEvent: {}
+[0.814595] (-) TimerEvent: {}
+[0.848258] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.869641] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.870711] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.871277] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.904453] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.924803] (-) TimerEvent: {}
+[1.027038] (-) TimerEvent: {}
+[1.108721] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.131560] (-) TimerEvent: {}
+[1.236985] (-) TimerEvent: {}
+[1.348572] (-) TimerEvent: {}
+[1.453780] (-) TimerEvent: {}
+[1.556715] (-) TimerEvent: {}
+[1.585807] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.648141] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.660668] (-) TimerEvent: {}
+[1.765518] (-) TimerEvent: {}
+[1.869594] (-) TimerEvent: {}
+[1.972892] (-) TimerEvent: {}
+[2.008257] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.073627] (-) TimerEvent: {}
+[2.174530] (-) TimerEvent: {}
+[2.277901] (-) TimerEvent: {}
+[2.336444] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.381640] (-) TimerEvent: {}
+[2.485368] (-) TimerEvent: {}
+[2.591980] (-) TimerEvent: {}
+[2.708998] (-) TimerEvent: {}
+[2.815735] (-) TimerEvent: {}
+[2.917637] (-) TimerEvent: {}
+[3.020409] (-) TimerEvent: {}
+[3.078844] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.124062] (-) TimerEvent: {}
+[3.227494] (-) TimerEvent: {}
+[3.332597] (-) TimerEvent: {}
+[3.437131] (-) TimerEvent: {}
+[3.540129] (-) TimerEvent: {}
+[3.618448] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.645444] (-) TimerEvent: {}
+[3.748157] (-) TimerEvent: {}
+[3.852887] (-) TimerEvent: {}
+[3.963380] (-) TimerEvent: {}
+[4.065731] (-) TimerEvent: {}
+[4.168825] (-) TimerEvent: {}
+[4.263318] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.269063] (-) TimerEvent: {}
+[4.293577] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.370441] (-) TimerEvent: {}
+[4.414590] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[4.472802] (-) TimerEvent: {}
+[4.573485] (-) TimerEvent: {}
+[4.678245] (-) TimerEvent: {}
+[4.769735] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.778453] (-) TimerEvent: {}
+[4.881466] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Configuring done (4.8s)\n'}
+[4.882794] (-) TimerEvent: {}
+[4.989226] (-) TimerEvent: {}
+[5.098494] (-) TimerEvent: {}
+[5.212705] (-) TimerEvent: {}
+[5.286830] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Generating done (0.4s)\n'}
+[5.322261] (-) TimerEvent: {}
+[5.408579] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces\n'}
+[5.418148] (turtle_catch_all_interfaces) CommandEnded: {'returncode': 0}
+[5.419386] (turtle_catch_all_interfaces) JobProgress: {'identifier': 'turtle_catch_all_interfaces', 'progress': 'build'}
+[5.421034] (turtle_catch_all_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces', '--', '-j20', '-l20'], 'cwd': '/media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2566-0-MyLinux_TIME113592', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib:/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/media/sf_GhostRider/ros2_ws/build', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2326', 'SYSTEMD_EXEC_PID': '2566', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3751', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/media/sf_GhostRider/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '9:27714', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/MyLinux:@/tmp/.ICE-unix/2531,unix/MyLinux:/tmp/.ICE-unix/2531', 'INVOCATION_ID': 'fe333ce0d9de4771b0bab3f34f2b5e7e', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.9BP1L3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/media/sf_GhostRider/ros2_ws/install/turtle_mine_bringup:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces:/media/sf_GhostRider/ros2_ws/install/my_robot_bringup:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg:/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:0ac0960a-9d57-4ec4-bf7e-87fa69c5007d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/media/sf_GhostRider/ros2_ws/install/turtle_mine_bringup:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces:/media/sf_GhostRider/ros2_ws/install/my_robot_bringup:/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg:/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[5.422676] (-) TimerEvent: {}
+[5.461181] (turtle_catch_all_interfaces) StderrLine: {'line': b"gmake: Warning: File 'Makefile' has modification time 0.15 s in the future\n"}
+[5.523883] (turtle_catch_all_interfaces) StderrLine: {'line': b"gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 0.21 s in the future\n"}
+[5.524807] (-) TimerEvent: {}
+[5.533100] (turtle_catch_all_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_copy_turtle_catch_all_interfaces.dir/progress.make' has modification time 0.17 s in the future\n"}
+[5.533797] (turtle_catch_all_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_type_description.dir/progress.make' has modification time 0.17 s in the future\n"}
+[5.567958] (turtle_catch_all_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[5.571520] (turtle_catch_all_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[5.574950] (turtle_catch_all_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_copy_turtle_catch_all_interfaces.dir/progress.make' has modification time 0.12 s in the future\n"}
+[5.576865] (turtle_catch_all_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_type_description.dir/progress.make' has modification time 0.13 s in the future\n"}
+[5.597925] (turtle_catch_all_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[5.620322] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[  1%] Built target turtle_catch_all_interfaces__rosidl_generator_type_description\n'}
+[5.626104] (-) TimerEvent: {}
+[5.645311] (turtle_catch_all_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/turtle_catch_all_interfaces__cpp.dir/progress.make' has modification time 0.056 s in the future\n"}
+[5.656580] (turtle_catch_all_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_c.dir/progress.make' has modification time 0.049 s in the future\n"}
+[5.692251] (turtle_catch_all_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[5.709649] (turtle_catch_all_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[5.724577] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_turtle_catch_all_interfaces\n'}
+[5.746251] (-) TimerEvent: {}
+[5.860764] (-) TimerEvent: {}
+[5.963213] (-) TimerEvent: {}
+[6.076435] (-) TimerEvent: {}
+[6.186894] (-) TimerEvent: {}
+[6.319110] (-) TimerEvent: {}
+[6.428778] (-) TimerEvent: {}
+[6.555526] (-) TimerEvent: {}
+[6.687585] (-) TimerEvent: {}
+[6.798377] (-) TimerEvent: {}
+[6.916683] (-) TimerEvent: {}
+[7.021908] (-) TimerEvent: {}
+[7.147609] (-) TimerEvent: {}
+[7.263228] (-) TimerEvent: {}
+[7.373247] (-) TimerEvent: {}
+[7.481226] (-) TimerEvent: {}
+[7.628541] (-) TimerEvent: {}
+[7.761612] (-) TimerEvent: {}
+[7.874107] (-) TimerEvent: {}
+[8.002010] (-) TimerEvent: {}
+[8.068669] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[  3%] Built target turtle_catch_all_interfaces__cpp\n'}
+[8.089294] (turtle_catch_all_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[8.119950] (-) TimerEvent: {}
+[8.143826] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 24%] Built target turtle_catch_all_interfaces__rosidl_generator_c\n'}
+[8.221169] (-) TimerEvent: {}
+[8.338037] (turtle_catch_all_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[8.342990] (-) TimerEvent: {}
+[8.373271] (turtle_catch_all_interfaces) StdoutLine: {'line': b'writing turtle_catch_all_interfaces.egg-info/PKG-INFO\n'}
+[8.380126] (turtle_catch_all_interfaces) StdoutLine: {'line': b'writing dependency_links to turtle_catch_all_interfaces.egg-info/dependency_links.txt\n'}
+[8.390451] (turtle_catch_all_interfaces) StdoutLine: {'line': b'writing top-level names to turtle_catch_all_interfaces.egg-info/top_level.txt\n'}
+[8.443211] (-) TimerEvent: {}
+[8.511693] (turtle_catch_all_interfaces) StdoutLine: {'line': b"reading manifest file 'turtle_catch_all_interfaces.egg-info/SOURCES.txt'\n"}
+[8.528529] (turtle_catch_all_interfaces) StdoutLine: {'line': b"writing manifest file 'turtle_catch_all_interfaces.egg-info/SOURCES.txt'\n"}
+[8.543915] (-) TimerEvent: {}
+[8.645555] (-) TimerEvent: {}
+[8.711913] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 24%] Built target ament_cmake_python_build_turtle_catch_all_interfaces_egg\n'}
+[8.745816] (-) TimerEvent: {}
+[8.848139] (-) TimerEvent: {}
+[8.949568] (-) TimerEvent: {}
+[9.050777] (-) TimerEvent: {}
+[9.160398] (-) TimerEvent: {}
+[9.272472] (-) TimerEvent: {}
+[9.297074] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 42%] Built target turtle_catch_all_interfaces__rosidl_typesupport_c\n'}
+[9.301110] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 42%] Built target turtle_catch_all_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.372803] (-) TimerEvent: {}
+[9.474929] (-) TimerEvent: {}
+[9.576984] (-) TimerEvent: {}
+[9.678044] (-) TimerEvent: {}
+[9.783970] (-) TimerEvent: {}
+[9.893984] (-) TimerEvent: {}
+[10.001807] (-) TimerEvent: {}
+[10.075134] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_catch_all_interfaces/msg/detail/turtle__type_support.cpp.o\x1b[0m\n'}
+[10.077760] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_catch_all_interfaces/msg/turtle__type_support.cpp.o\x1b[0m\n'}
+[10.082295] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_catch_all_interfaces/msg/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[10.087226] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_catch_all_interfaces/msg/detail/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[10.093038] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_catch_all_interfaces/srv/detail/catch_turtle__type_support.cpp.o\x1b[0m\n'}
+[10.097921] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_catch_all_interfaces/srv/catch_turtle__type_support.cpp.o\x1b[0m\n'}
+[10.122405] (-) TimerEvent: {}
+[10.223900] (-) TimerEvent: {}
+[10.325653] (-) TimerEvent: {}
+[10.428656] (-) TimerEvent: {}
+[10.536521] (-) TimerEvent: {}
+[10.645314] (-) TimerEvent: {}
+[10.747902] (-) TimerEvent: {}
+[10.863757] (-) TimerEvent: {}
+[10.955189] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 62%] Built target turtle_catch_all_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.966006] (-) TimerEvent: {}
+[11.006693] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_catch_all_interfaces/msg/detail/dds_fastrtps/turtle__type_support.cpp.o\x1b[0m\n'}
+[11.019358] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_catch_all_interfaces/srv/detail/dds_fastrtps/catch_turtle__type_support.cpp.o\x1b[0m\n'}
+[11.040670] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/turtle_catch_all_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_catch_all_interfaces/msg/detail/dds_fastrtps/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[11.067623] (-) TimerEvent: {}
+[11.170080] (-) TimerEvent: {}
+[11.272568] (-) TimerEvent: {}
+[11.374592] (-) TimerEvent: {}
+[11.493640] (-) TimerEvent: {}
+[11.595537] (-) TimerEvent: {}
+[11.607768] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_catch_all_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.696958] (-) TimerEvent: {}
+[11.746545] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_catch_all_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[11.799143] (-) TimerEvent: {}
+[11.889612] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 74%] Built target turtle_catch_all_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[11.901545] (-) TimerEvent: {}
+[11.942483] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_catch_all_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.990934] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 77%] Built target turtle_catch_all_interfaces__rosidl_typesupport_cpp\n'}
+[12.002871] (-) TimerEvent: {}
+[12.104414] (-) TimerEvent: {}
+[12.116601] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 79%] Built target turtle_catch_all_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[12.176067] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 79%] Built target turtle_catch_all_interfaces\n'}
+[12.206852] (-) TimerEvent: {}
+[12.309827] (-) TimerEvent: {}
+[12.419934] (-) TimerEvent: {}
+[12.457823] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 81%] Built target turtle_catch_all_interfaces__py\n'}
+[12.524543] (-) TimerEvent: {}
+[12.625076] (-) TimerEvent: {}
+[12.686652] (turtle_catch_all_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_py.dir/compiler_depend.make' has modification time 0.29 s in the future\n"}
+[12.720212] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_catch_all_interfaces/msg/_turtle_s.c.o\x1b[0m\n'}
+[12.721167] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_catch_all_interfaces/msg/_turtle_array_s.c.o\x1b[0m\n'}
+[12.721590] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtle_catch_all_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_catch_all_interfaces/srv/_catch_turtle_s.c.o\x1b[0m\n'}
+[12.725553] (-) TimerEvent: {}
+[12.826924] (-) TimerEvent: {}
+[12.931935] (-) TimerEvent: {}
+[12.993680] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library libturtle_catch_all_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[13.032686] (-) TimerEvent: {}
+[13.072153] (turtle_catch_all_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[13.095106] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 88%] Built target turtle_catch_all_interfaces__rosidl_generator_py\n'}
+[13.134386] (-) TimerEvent: {}
+[13.244682] (-) TimerEvent: {}
+[13.346354] (-) TimerEvent: {}
+[13.432179] (turtle_catch_all_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/turtle_catch_all_interfaces_s__rosidl_typesupport_fastrtps_c.dir/compiler_depend.make' has modification time 0.33 s in the future\n"}
+[13.450095] (-) TimerEvent: {}
+[13.522317] (turtle_catch_all_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/turtle_catch_all_interfaces_s__rosidl_typesupport_c.dir/compiler_depend.make' has modification time 0.25 s in the future\n"}
+[13.534243] (turtle_catch_all_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/turtle_catch_all_interfaces_s__rosidl_typesupport_introspection_c.dir/compiler_depend.make' has modification time 0.24 s in the future\n"}
+[13.551014] (-) TimerEvent: {}
+[13.551728] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtle_catch_all_interfaces/turtle_catch_all_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.561447] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtle_catch_all_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtle_catch_all_interfaces/_turtle_catch_all_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[13.580171] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/turtle_catch_all_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/turtle_catch_all_interfaces/_turtle_catch_all_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.651820] (-) TimerEvent: {}
+[13.653464] (turtle_catch_all_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[13.729913] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 96%] Built target turtle_catch_all_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[13.751924] (-) TimerEvent: {}
+[13.798616] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtle_catch_all_interfaces/turtle_catch_all_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.813751] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtle_catch_all_interfaces/turtle_catch_all_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.853212] (-) TimerEvent: {}
+[13.876661] (turtle_catch_all_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[13.891007] (turtle_catch_all_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[13.911055] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[100%] Built target turtle_catch_all_interfaces_s__rosidl_typesupport_c\n'}
+[13.929053] (turtle_catch_all_interfaces) StdoutLine: {'line': b'[100%] Built target turtle_catch_all_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[13.930816] (turtle_catch_all_interfaces) StderrLine: {'line': b'gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[13.953311] (-) TimerEvent: {}
+[13.966402] (turtle_catch_all_interfaces) StderrLine: {'line': b'gmake: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[13.968292] (turtle_catch_all_interfaces) CommandEnded: {'returncode': 0}
+[13.972021] (turtle_catch_all_interfaces) JobProgress: {'identifier': 'turtle_catch_all_interfaces', 'progress': 'install'}
+[14.001077] (turtle_catch_all_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces'], 'cwd': '/media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2566-0-MyLinux_TIME113592', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib:/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/media/sf_GhostRider/ros2_ws/build', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2326', 'SYSTEMD_EXEC_PID': '2566', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3751', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/media/sf_GhostRider/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '9:27714', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/MyLinux:@/tmp/.ICE-unix/2531,unix/MyLinux:/tmp/.ICE-unix/2531', 'INVOCATION_ID': 'fe333ce0d9de4771b0bab3f34f2b5e7e', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.9BP1L3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/media/sf_GhostRider/ros2_ws/install/turtle_mine_bringup:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces:/media/sf_GhostRider/ros2_ws/install/my_robot_bringup:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg:/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:0ac0960a-9d57-4ec4-bf7e-87fa69c5007d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/media/sf_GhostRider/ros2_ws/build/turtle_catch_all_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/media/sf_GhostRider/ros2_ws/install/turtle_mine_bringup:/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces:/media/sf_GhostRider/ros2_ws/install/my_robot_bringup:/media/sf_GhostRider/ros2_ws/install/my_cpp_pkg:/media/sf_GhostRider/ros2_ws/install/my_robot_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all:/media/sf_GhostRider/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[14.021554] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.022896] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtle_catch_all_interfaces\n'}
+[14.024599] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/msg/Turtle.json\n'}
+[14.025354] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/msg/TurtleArray.json\n'}
+[14.030575] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/srv/CatchTurtle.json\n'}
+[14.036012] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces\n'}
+[14.037310] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg\n'}
+[14.038591] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail\n'}
+[14.039635] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__description.c\n'}
+[14.040257] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__functions.c\n'}
+[14.040807] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__functions.h\n'}
+[14.041592] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__struct.h\n'}
+[14.042350] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__type_support.c\n'}
+[14.047154] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__type_support.h\n'}
+[14.048012] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__description.c\n'}
+[14.048871] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__functions.c\n'}
+[14.049594] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__functions.h\n'}
+[14.050164] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__struct.h\n'}
+[14.050852] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__type_support.c\n'}
+[14.055172] (-) TimerEvent: {}
+[14.055935] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__type_support.h\n'}
+[14.056668] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.057451] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/turtle.h\n'}
+[14.058011] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/turtle_array.h\n'}
+[14.060829] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv\n'}
+[14.064935] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/catch_turtle.h\n'}
+[14.065715] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail\n'}
+[14.067513] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__description.c\n'}
+[14.068347] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__functions.c\n'}
+[14.069117] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__functions.h\n'}
+[14.069918] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__struct.h\n'}
+[14.070821] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__type_support.c\n'}
+[14.076092] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__type_support.h\n'}
+[14.077157] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/environment/library_path.sh\n'}
+[14.078099] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/environment/library_path.dsv\n'}
+[14.085302] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_generator_c.so\n'}
+[14.094003] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces\n'}
+[14.095138] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg\n'}
+[14.096567] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail\n'}
+[14.098164] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h\n'}
+[14.098971] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h\n'}
+[14.099681] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.100389] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv\n'}
+[14.101677] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail\n'}
+[14.103041] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_c.h\n'}
+[14.112914] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[14.122375] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces\n'}
+[14.123581] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg\n'}
+[14.124600] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail\n'}
+[14.125896] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h\n'}
+[14.126498] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__type_support.c\n'}
+[14.131737] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h\n'}
+[14.132531] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__type_support.c\n'}
+[14.137215] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.138096] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv\n'}
+[14.138950] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail\n'}
+[14.140278] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_c.h\n'}
+[14.140926] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__type_support.c\n'}
+[14.152867] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[14.155499] (-) TimerEvent: {}
+[14.166744] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_typesupport_c.so\n'}
+[14.173856] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces\n'}
+[14.174967] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg\n'}
+[14.176301] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail\n'}
+[14.177616] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__builder.hpp\n'}
+[14.182810] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__struct.hpp\n'}
+[14.188633] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__traits.hpp\n'}
+[14.193611] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__type_support.hpp\n'}
+[14.198402] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__builder.hpp\n'}
+[14.203491] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__struct.hpp\n'}
+[14.208447] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__traits.hpp\n'}
+[14.213464] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__type_support.hpp\n'}
+[14.218485] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[14.223506] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/turtle.hpp\n'}
+[14.224141] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/turtle_array.hpp\n'}
+[14.228855] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv\n'}
+[14.230444] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/catch_turtle.hpp\n'}
+[14.235214] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail\n'}
+[14.236527] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__builder.hpp\n'}
+[14.241402] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__struct.hpp\n'}
+[14.246574] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__traits.hpp\n'}
+[14.252135] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__type_support.hpp\n'}
+[14.256830] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces\n'}
+[14.257743] (-) TimerEvent: {}
+[14.258213] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg\n'}
+[14.259357] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail\n'}
+[14.260490] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/dds_fastrtps\n'}
+[14.264519] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.266994] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.267875] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.268306] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv\n'}
+[14.269465] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail\n'}
+[14.270651] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.271257] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/dds_fastrtps\n'}
+[14.280073] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.307801] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.309284] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces\n'}
+[14.310381] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg\n'}
+[14.311611] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail\n'}
+[14.313065] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.313855] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle_array__type_support.cpp\n'}
+[14.314675] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.315636] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/msg/detail/turtle__type_support.cpp\n'}
+[14.316316] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv\n'}
+[14.317259] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail\n'}
+[14.318644] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.319370] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/include/turtle_catch_all_interfaces/turtle_catch_all_interfaces/srv/detail/catch_turtle__type_support.cpp\n'}
+[14.330942] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[14.356656] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.358036] (-) TimerEvent: {}
+[14.371216] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_typesupport_cpp.so\n'}
+[14.395042] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[14.397427] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/environment/pythonpath.sh\n'}
+[14.398303] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/environment/pythonpath.dsv\n'}
+[14.399707] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces-0.0.0-py3.12.egg-info\n'}
+[14.401410] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[14.406108] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[14.410559] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[14.415594] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[14.420886] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces\n'}
+[14.422546] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/msg\n'}
+[14.423665] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/msg/_turtle.py\n'}
+[14.428957] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/msg/_turtle_array.py\n'}
+[14.434418] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/msg/_turtle_array_s.c\n'}
+[14.439215] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/msg/_turtle_s.c\n'}
+[14.444110] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/msg/__init__.py\n'}
+[14.448808] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/srv\n'}
+[14.450099] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/srv/_catch_turtle.py\n'}
+[14.455409] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/srv/_catch_turtle_s.c\n'}
+[14.460738] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/srv/__init__.py\n'}
+[14.461543] (-) TimerEvent: {}
+[14.471407] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/turtle_catch_all_interfaces_s__rosidl_typesupport_c.so\n'}
+[14.478885] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/turtle_catch_all_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[14.485814] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/turtle_catch_all_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[14.493268] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/_turtle_catch_all_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[14.500124] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/_turtle_catch_all_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[14.501383] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/_turtle_catch_all_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[14.507861] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/__init__.py\n'}
+[14.558053] (turtle_catch_all_interfaces) StdoutLine: {'line': b"Listing '/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces'...\n"}
+[14.558920] (turtle_catch_all_interfaces) StdoutLine: {'line': b"Compiling '/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/__init__.py'...\n"}
+[14.559207] (turtle_catch_all_interfaces) StdoutLine: {'line': b"Listing '/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/msg'...\n"}
+[14.559781] (turtle_catch_all_interfaces) StdoutLine: {'line': b"Compiling '/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/msg/__init__.py'...\n"}
+[14.560754] (turtle_catch_all_interfaces) StdoutLine: {'line': b"Compiling '/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/msg/_turtle.py'...\n"}
+[14.561371] (turtle_catch_all_interfaces) StdoutLine: {'line': b"Compiling '/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/msg/_turtle_array.py'...\n"}
+[14.561990] (-) TimerEvent: {}
+[14.562294] (turtle_catch_all_interfaces) StdoutLine: {'line': b"Listing '/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/srv'...\n"}
+[14.562624] (turtle_catch_all_interfaces) StdoutLine: {'line': b"Compiling '/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/srv/__init__.py'...\n"}
+[14.563673] (turtle_catch_all_interfaces) StdoutLine: {'line': b"Compiling '/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/srv/_catch_turtle.py'...\n"}
+[14.577584] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/turtle_catch_all_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[14.599040] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/turtle_catch_all_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.607014] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/turtle_catch_all_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[14.626387] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/turtle_catch_all_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.634511] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/turtle_catch_all_interfaces_s__rosidl_typesupport_c.so\n'}
+[14.653988] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/python3.12/site-packages/turtle_catch_all_interfaces/turtle_catch_all_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[14.662852] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_generator_py.so\n'}
+[14.664015] (-) TimerEvent: {}
+[14.694984] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/lib/libturtle_catch_all_interfaces__rosidl_generator_py.so" to ""\n'}
+[14.697556] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/msg/Turtle.idl\n'}
+[14.698708] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/msg/TurtleArray.idl\n'}
+[14.699614] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/srv/CatchTurtle.idl\n'}
+[14.701056] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/msg/Turtle.msg\n'}
+[14.702337] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/msg/TurtleArray.msg\n'}
+[14.703497] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/srv/CatchTurtle.srv\n'}
+[14.705864] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/ament_index/resource_index/package_run_dependencies/turtle_catch_all_interfaces\n'}
+[14.707099] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/ament_index/resource_index/parent_prefix_path/turtle_catch_all_interfaces\n'}
+[14.708328] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/environment/ament_prefix_path.sh\n'}
+[14.709278] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/environment/ament_prefix_path.dsv\n'}
+[14.710185] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/environment/path.sh\n'}
+[14.711075] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/environment/path.dsv\n'}
+[14.712187] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/local_setup.bash\n'}
+[14.713153] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/local_setup.sh\n'}
+[14.714156] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/local_setup.zsh\n'}
+[14.715102] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/local_setup.dsv\n'}
+[14.716038] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Installing: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/package.dsv\n'}
+[14.721757] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/ament_index/resource_index/packages/turtle_catch_all_interfaces\n'}
+[14.724029] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/export_turtle_catch_all_interfaces__rosidl_generator_cExport.cmake\n'}
+[14.724999] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/export_turtle_catch_all_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.726839] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/export_turtle_catch_all_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.728142] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/export_turtle_catch_all_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.730119] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/turtle_catch_all_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.730950] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/turtle_catch_all_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.732677] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/turtle_catch_all_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[14.733472] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/turtle_catch_all_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.735172] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/export_turtle_catch_all_interfaces__rosidl_generator_cppExport.cmake\n'}
+[14.737136] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/export_turtle_catch_all_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.738050] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/export_turtle_catch_all_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.740046] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/turtle_catch_all_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.740898] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/turtle_catch_all_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.742877] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/turtle_catch_all_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[14.743757] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/turtle_catch_all_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.745639] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/export_turtle_catch_all_interfaces__rosidl_generator_pyExport.cmake\n'}
+[14.746583] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/export_turtle_catch_all_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.748142] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[14.749294] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.750409] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.751426] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.752618] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.753362] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.754187] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.755304] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/turtle_catch_all_interfacesConfig.cmake\n'}
+[14.756164] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/cmake/turtle_catch_all_interfacesConfig-version.cmake\n'}
+[14.757111] (turtle_catch_all_interfaces) StdoutLine: {'line': b'-- Up-to-date: /media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces/share/turtle_catch_all_interfaces/package.xml\n'}
+[14.762341] (turtle_catch_all_interfaces) CommandEnded: {'returncode': 0}
+[14.764383] (-) TimerEvent: {}
+[14.865807] (-) TimerEvent: {}
+[14.881368] (turtle_catch_all_interfaces) JobEnded: {'identifier': 'turtle_catch_all_interfaces', 'rc': 0}
+[14.886103] (-) EventReactorShutdown: {}

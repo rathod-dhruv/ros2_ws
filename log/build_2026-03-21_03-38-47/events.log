@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.000547] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000732] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000788] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.001237] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.002924] (-) JobUnselected: {'identifier': 'turtle_catch_all_interfaces'}
+[0.004561] (-) JobUnselected: {'identifier': 'turtlesim_catch_them_all'}
+[0.006054] (turtle_mine_bringup) JobQueued: {'identifier': 'turtle_mine_bringup', 'dependencies': OrderedDict({'turtle_catch_all_interfaces': '/media/sf_GhostRider/ros2_ws/install/turtle_catch_all_interfaces', 'turtlesim_catch_them_all': '/media/sf_GhostRider/ros2_ws/install/turtlesim_catch_them_all'})}
+[0.008478] (turtle_mine_bringup) JobStarted: {'identifier': 'turtle_mine_bringup'}
+[0.061065] (turtle_mine_bringup) JobEnded: {'identifier': 'turtle_mine_bringup', 'rc': 1}
+[0.071854] (-) EventReactorShutdown: {}
